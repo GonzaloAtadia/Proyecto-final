@@ -7,10 +7,15 @@ body{
 h1 {
     color: blue;
     background-color: rgb(196, 200, 198);
-    font-family: "Londrina Sketch", sans-serif;   
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;   
     font-size: 8em;
     text-align: center;     
-    border-color: yellowgreen 5px;       
+           
+}
+.logo{
+    padding-top: 1em;
 }
 h2.st{
     display: block;
@@ -27,8 +32,10 @@ ul{
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    box-sizing: content-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
 }
 li{
     font-size: 2em;
@@ -65,7 +72,7 @@ button{
 
 
 footer {
-    
+    background-color: gray;
     font-style: oblique; 
     text-align: center;
     font-size: 2em;
